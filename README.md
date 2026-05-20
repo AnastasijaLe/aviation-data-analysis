@@ -1,16 +1,16 @@
-> [English version below](#english) <
-**Comparison of Machine Learning Methods for Data Forecasting and Segmentation in the Aviation Industry**
+> [English version below](#english)
+# **Comparison of Machine Learning Methods for Data Forecasting and Segmentation in the Aviation Industry**
 
 The interactive application can also be launched without any additional installation:
 [aviation-data-analysis.streamlit.app](https://aviation-data-analysis.streamlit.app/)
-Note: the initial loading may take some time because Streamlit rebuilds/restarts the application after periods of inactivity.
+> Note: the initial loading may take some time because Streamlit rebuilds/restarts the application after periods of inactivity.
 
-> [Latviešu valodā zemāk](#LV)< 
-**Mašīnmācīšanās metožu salīdzināšana datu prognozēšanai un segmentācijai aviācijas nozarē**
+> [Latviešu valodā zemāk](#LV)
+# **Mašīnmācīšanās metožu salīdzināšana datu prognozēšanai un segmentācijai aviācijas nozarē**
 
 Interaktīvo lietotni iespējams palaist arī bez papildu instalācijas:
 [aviation-data-analysis.streamlit.app](https://aviation-data-analysis.streamlit.app/)
-Piezīme: pirmā ielāde var aizņemt nedaudz ilgāku laiku, jo Streamlit pēc ilgākas neaktivitātes atkārtoti inicializē lietotni.
+> Piezīme: pirmā ielāde var aizņemt nedaudz ilgāku laiku, jo Streamlit pēc ilgākas neaktivitātes atkārtoti inicializē lietotni.
 
 # LV
 Bakalaura darba risinājuma daļa. Tiek salīdzinātas pārraudzītās un nepārraudzītās mašīnmācīšanās metodes Eiropas Savienības aviācijas datu **prognozēšanai** (pasažieru plūsma, CO₂ emisijas) un valstu **segmentācijai**.
