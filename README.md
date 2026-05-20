@@ -3,6 +3,7 @@
 The interactive application can also be launched without any additional installation:
 [aviation-data-analysis.streamlit.app](https://aviation-data-analysis.streamlit.app/)
 > Note: the initial loading may take some time because Streamlit rebuilds/restarts the application after periods of inactivity.
+
 > [English version for local deployment](#english)
 
 # **Mašīnmācīšanās metožu salīdzināšana datu prognozēšanai un segmentācijai aviācijas nozarē**
@@ -10,6 +11,7 @@ The interactive application can also be launched without any additional installa
 Interaktīvo lietotni iespējams palaist arī bez papildu instalācijas:
 [aviation-data-analysis.streamlit.app](https://aviation-data-analysis.streamlit.app/)
 > Piezīme: pirmā ielāde var aizņemt nedaudz ilgāku laiku, jo Streamlit pēc ilgākas neaktivitātes atkārtoti inicializē lietotni.
+
 > [Latviešu versija lokālai palaišanai](#LV)
 # LV
 > Bakalaura darba risinājuma daļa. Tiek salīdzinātas pārraudzītās un nepārraudzītās mašīnmācīšanās metodes Eiropas Savienības aviācijas datu **prognozēšanai** (pasažieru plūsma, CO₂ emisijas) un valstu **segmentācijai**.
