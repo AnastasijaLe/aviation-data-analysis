@@ -1,7 +1,7 @@
 > [English version below](#english)
 Comparison of Machine Learning Methods for Data Forecasting and Segmentation in the Aviation Industry
 
-> 🇱🇻 Latviešu valodā 
+> Latviešu valodā 
 Mašīnmācīšanās metožu salīdzināšana datu prognozēšanai un segmentācijai aviācijas nozarē
 
 Bakalaura darba risinājuma daļa. Tiek salīdzinātas pārraudzītās un nepārraudzītās mašīnmācīšanās metodes Eiropas Savienības aviācijas datu **prognozēšanai** (pasažieru plūsma, CO₂ emisijas) un valstu **segmentācijai**.
