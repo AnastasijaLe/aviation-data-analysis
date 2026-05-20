@@ -1,19 +1,18 @@
-> [English version below](#english)
 # **Comparison of Machine Learning Methods for Data Forecasting and Segmentation in the Aviation Industry**
 
 The interactive application can also be launched without any additional installation:
 [aviation-data-analysis.streamlit.app](https://aviation-data-analysis.streamlit.app/)
 > Note: the initial loading may take some time because Streamlit rebuilds/restarts the application after periods of inactivity.
+> [English version for local deployment](#english)
 
-> [Latviešu valodā zemāk](#LV)
 # **Mašīnmācīšanās metožu salīdzināšana datu prognozēšanai un segmentācijai aviācijas nozarē**
 
 Interaktīvo lietotni iespējams palaist arī bez papildu instalācijas:
 [aviation-data-analysis.streamlit.app](https://aviation-data-analysis.streamlit.app/)
 > Piezīme: pirmā ielāde var aizņemt nedaudz ilgāku laiku, jo Streamlit pēc ilgākas neaktivitātes atkārtoti inicializē lietotni.
-
+> [Latviešu versija lokālai palaišanai](#LV)
 # LV
-Bakalaura darba risinājuma daļa. Tiek salīdzinātas pārraudzītās un nepārraudzītās mašīnmācīšanās metodes Eiropas Savienības aviācijas datu **prognozēšanai** (pasažieru plūsma, CO₂ emisijas) un valstu **segmentācijai**.
+> Bakalaura darba risinājuma daļa. Tiek salīdzinātas pārraudzītās un nepārraudzītās mašīnmācīšanās metodes Eiropas Savienības aviācijas datu **prognozēšanai** (pasažieru plūsma, CO₂ emisijas) un valstu **segmentācijai**.
 
 ### Metodes
 - **Prognozēšana:** lineārā regresija, gadījumu meži (Random Forest), XGBoost — ar laikrindu šķērspārbaudi (MAE, RMSE, R², MAPE).
@@ -26,7 +25,7 @@ Bakalaura darba risinājuma daļa. Tiek salīdzinātas pārraudzītās un nepār
 | OECD                 | Aviācijas CO₂ emisijas (gada)          |
 | Pasaules Banka       | IKP uz iedzīvotāju, iedzīvotāju skaits |
 
-Neapstrādātie dati glabājas `data/raw/`, un tiek apvienoti SQLite datubāzē `data/database/aviation.db`.
+> Neapstrādātie dati glabājas `data/raw/`, un tiek apvienoti SQLite datubāzē `data/database/aviation.db`.
 
 ### Struktūra
 ```
@@ -69,7 +68,7 @@ This project was developed as part of a bachelor's thesis. It compares supervise
 | OECD                 | Aviation CO₂ emissions (annual)|
 | World Bank           | GDP per capita, population     |
 
-Raw data lives in `data/raw/` and is merged into the SQLite database `data/database/aviation.db`.
+> Raw data lives in `data/raw/` and is merged into the SQLite database `data/database/aviation.db`.
 
 ### Structure
 ```
