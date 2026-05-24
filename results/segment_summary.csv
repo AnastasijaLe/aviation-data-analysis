@@ -1,28 +1,28 @@
 country,country_code,km_co2_in,km_passen,km_combin
 Austria,AT,0.0,0,0.0
 Belgium,BE,0.0,0,0.0
-Bulgaria,BG,0.0,0,1.0
-Croatia,HR,0.0,2,1.0
-Cyprus,CY,0.0,1,1.0
+Bulgaria,BG,0.0,1,1.0
+Croatia,HR,0.0,1,1.0
+Cyprus,CY,0.0,0,1.0
 Czech Republic,CZ,0.0,0,0.0
 Denmark,DK,0.0,0,0.0
 Estonia,EE,0.0,0,0.0
 Finland,FI,0.0,0,0.0
 France,FR,0.0,0,0.0
 Germany,DE,0.0,0,0.0
-Greece,GR,0.0,2,1.0
+Greece,GR,0.0,1,1.0
 Hungary,HU,0.0,0,0.0
-Ireland,IE,1.0,1,0.0
+Ireland,IE,1.0,0,0.0
 Italy,IT,0.0,0,0.0
 Latvia,LV,0.0,0,0.0
 Lithuania,LT,,0,0.0
-Luxembourg,LU,0.0,1,0.0
-Malta,MT,1.0,1,0.0
+Luxembourg,LU,0.0,0,0.0
+Malta,MT,1.0,0,0.0
 Netherlands,NL,0.0,0,0.0
 Poland,PL,0.0,0,0.0
-Portugal,PT,0.0,1,0.0
+Portugal,PT,0.0,0,0.0
 Romania,RO,0.0,0,0.0
-Slovak Republic,SK,0.0,2,1.0
+Slovak Republic,SK,0.0,1,1.0
 Slovenia,SI,,0,
-Spain,ES,0.0,1,0.0
+Spain,ES,0.0,0,0.0
 Sweden,SE,0.0,0,0.0

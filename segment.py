@@ -18,7 +18,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 from sklearn.metrics import silhouette_samples, silhouette_score
-from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import RobustScaler, StandardScaler
 
 import ml_core
 
@@ -310,10 +310,14 @@ def run_analysis(
     features = ml_core.FEATURE_SETS[analysis]
 
     if k is None:
-        df_temp    = base_df.dropna(subset=features).copy()
-        X_scaled   = StandardScaler().fit_transform(df_temp[features].values)
-        sil_scores = ml_core.find_optimal_k(X_scaled)
-        k_used     = max(sil_scores, key=sil_scores.get)
+        df_temp = base_df.dropna(subset=features).copy()
+        X_scan  = df_temp[features].copy()
+        for f in features:
+            if f in ml_core.SKEWED_FEATURES:
+                X_scan[f] = np.log1p(X_scan[f].clip(lower=0))
+        X_scaled_scan = RobustScaler().fit_transform(X_scan.values)
+        sil_scores    = ml_core.find_optimal_k(X_scaled_scan)
+        k_used        = ml_core.pick_optimal_k(X_scaled_scan, min_cluster_size=3)
         print_silhouette_table(sil_scores, k_used)
     else:
         k_used = k
